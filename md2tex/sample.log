@@ -1,2072 +1,1273 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.9.7)  8 SEP 2024 23:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.3.2)  9 SEP 2024 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **sample.tex
 (./sample.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
-(/usr/share/texmf-dist/tex/latex/base/article.cls
+LaTeX2e <2023-06-01>
+L3 programming layer <2023-06-05>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size10.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count184
-\c@section=\count185
-\c@subsection=\count186
-\c@subsubsection=\count187
-\c@paragraph=\count188
-\c@subparagraph=\count189
-\c@figure=\count190
-\c@table=\count191
+\c@part=\count181
+\c@section=\count182
+\c@subsection=\count183
+\c@subsubsection=\count184
+\c@paragraph=\count185
+\c@subparagraph=\count186
+\c@figure=\count187
+\c@table=\count188
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitkv@toks@=\toks17
 \labelindent=\skip50
 \enit@outerparindent=\dimen141
 \enit@toks=\toks18
 \enit@inbox=\box51
-\enit@count@id=\count192
-\enitdp@description=\count193
+\enit@count@id=\count189
+\enitdp@description=\count190
 )
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-02-20 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
 
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
-\g__graphics_track_int=\count194
-\l__pdf_internal_box=\box52
-\g__pdf_backend_object_int=\count195
-\g__pdf_backend_annotation_int=\count196
-\g__pdf_backend_link_int=\count197
-))
-Package: xparse 2024-02-18 L3 Experimental document command parser
+
+! LaTeX Error: Mismatched LaTeX support files detected.
+(LaTeX)        Loading 'expl3.sty' aborted!
+(LaTeX)        
+(LaTeX)        The L3 programming layer in the LaTeX format
+(LaTeX)        is dated 2023-06-05, but in your TeX tree the files require
+(LaTeX)        at least 2024-01-22.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.78      \ExplLoaderFileDate{expl3.sty}}
+                                         %
+
+The cause seems to be an old format file in the user tree.
+LaTeX found these files:
+ - /home/milav/.texlive2023/texmf-var/web2c/xetex/xelatex.fmt 
+ - /var/lib/texmf/web2c/xetex/xelatex.fmt 
+Try deleting the file in the user tree then run LaTeX again.
+LaTeX will abort loading the incompatible support files but this may lead to
+later errors. Please ensure that your LaTeX format is correctly regenerated.
+
+
 )
-Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+Package: xparse 2023-10-10 L3 Experimental document command parser
 
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTe
+! Undefined control sequence.
+l.98 \cs_new_protected:Npe
+                           \__cmd_normalize_type_g:w
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.98 ...ew_protected:Npe \__cmd_normalize_type_g:w
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...malize_type_G:w { \exp_not:V \c_novalue_tl
+                                                   } }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count198
-\l__fontspec_language_int=\count199
-\l__fontspec_strnum_int=\count266
-\l__fontspec_tmp_int=\count267
-\l__fontspec_tmpa_int=\count268
-\l__fontspec_tmpb_int=\count269
-\l__fontspec_tmpc_int=\count270
-\l__fontspec_em_int=\count271
-\l__fontspec_emdef_int=\count272
-\l__fontspec_strong_int=\count273
-\l__fontspec_strongdef_int=\count274
+\l__fontspec_script_int=\count191
+\l__fontspec_language_int=\count192
+\l__fontspec_strnum_int=\count193
+\l__fontspec_tmp_int=\count194
+\l__fontspec_tmpa_int=\count195
+\l__fontspec_tmpb_int=\count196
+\l__fontspec_tmpc_int=\count197
+\l__fontspec_em_int=\count198
+\l__fontspec_emdef_int=\count199
+\l__fontspec_strong_int=\count266
+\l__fontspec_strongdef_int=\count267
 \l__fontspec_tmpa_dim=\dimen142
 \l__fontspec_tmpb_dim=\dimen143
 \l__fontspec_tmpc_dim=\dimen144
 
-(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(/usr/share/texmf-dist/tex/latex/polyglossia/polyglossia.sty
-Package: polyglossia 2024/03/07 v2.1 Modern multilingual typesetting with XeLaT
-eX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2023/12/11 v1.66 Modern multilingual typesetting with XeLa
+TeX and LuaLaTeX
 
-(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count275
+\etb@tempcnta=\count268
 )
-(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks19
 \XKV@tempa@toks=\toks20
 
-(/usr/share/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count276
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count269
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(/usr/share/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
-File: gloss-latex.ldf polyglossia: module for default language
+\xpg@normalclass=\XeTeXcharclass1
+
+! Undefined control sequence.
+l.973 \cs_new_nopar:Ne
+                       \__xpg_saved_@pkgextension: {\@pkgextension}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.973 \cs_new_nopar:Ne \__xpg_saved_@pkgextension:
+                                                   {\@pkgextension}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.973 ..._xpg_saved_@pkgextension: {\@pkgextension
+                                                  }
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\setmainlanguage code ...n {##2}}}}\seq_if_in:NeF 
+                                                  \__xpg_langs_loaded {#2}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.lde
+Package: gloss-latex 2023/12/11 v1.66 polyglossia: module for default language
+
+! Undefined control sequence.
+\polyglossia_setup_hyphen:n #1->\clist_set:Ne 
+                                              {\l_tmpa_clist }{\prop_item:Nn...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\polyglossia_setup_hyphen:n ...{#1}}\clist_set:Ne 
+                                                  \l_tmpa_clist {\prop_item:...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_language_alias code ...ariant}\prop_gput:Nee 
+                                                  \__xpg_alias {#6/target}{#...
+l.16 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 )
-Package polyglossia Info: Default language is latex.
-)
-(/usr/share/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
-File: gloss-english.ldf polyglossia: module for English
-Package polyglossia Info: Option: English, variant=american.
-)
-Package polyglossia Info: Default language is english.
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {latex/target}
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+\setmainlanguage code ...}{#2}}\seq_gput_right:Ne 
+                                                  \__xpg_langs_loaded {#2}}\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package polyglossia Warning: File gloss-gujarati.ldf do not exists!
-(polyglossia)                I will nevertheless try to use hyphenation pattern
-s for gujarati. on input line 7.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package polyglossia Warning: No hyphenation patterns were loaded for `gujarati'
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-(polyglossia)                I will use \language=\l@nohyphenation instead on i
-nput line 7.
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {latex/target}
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\l@gujarati = a dialect from \language\l@nohyphenation 
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {latex/target}
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Package fontspec Error: The font "Noto Sans Gujarati-Regular" cannot be
-(fontspec)                found.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.15 ]
-      
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- When in doubt, ask someone for help!
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {latex/target}/target}
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {latex/target}/target}
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package fontspec Warning: Font "Noto Sans Gujarati-Regular" does not contain
-(fontspec)                requested Script "Gujarati".
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Package fontspec Error: The font "Noto Sans Gujarati-Regular" cannot be
-(fontspec)                found.
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {latex/target}/tar...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.15 ]
-      
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {latex/target}/tar...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- When in doubt, ask someone for help!
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {latex/t...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Package fontspec Error: The font "Noto Sans Gujarati-Regular" cannot be
-(fontspec)                found.
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {latex/t...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.15 ]
-      
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- When in doubt, ask someone for help!
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Package fontspec Error: The font "Noto Sans Gujarati-Bold" cannot be found.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.15 ]
-      
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- When in doubt, ask someone for help!
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! Package fontspec Error: The font "Noto Sans Gujarati-Bold" cannot be found.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.15 ]
-      
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-A font might not be found for many reasons.
- Check the spelling, where the font is installed etc. etc.
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- When in doubt, ask someone for help!
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package fontspec Info: Font family 'NotoSansGujarati(0)' created for font
-(fontspec)             'Noto Sans Gujarati' with options
-(fontspec)             [Script=Gujarati,Path=/usr/share/fonts/noto/,UprightFont
-=*-Regular,BoldFont=*-Bold,Extension=.ttf,Mapping=tex-text].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[/usr/share/fonts/noto/Noto Sans
-(fontspec)             Gujarati-Regular.ttf]/OT"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <->"[/usr/share/fonts/noto/Noto Sans
-(fontspec)             Gujarati-Regular.ttf]/OT"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[/usr/share/fonts/noto/Noto Sans
-(fontspec)             Gujarati-Bold.ttf]/OT"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
-(fontspec)             <->"[/usr/share/fonts/noto/Noto Sans
-(fontspec)             Gujarati-Bold.ttf]/OT"
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-(./sample.aux)
-\openout1 = `sample.aux'.
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-0.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\symlegacymaths=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 20.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 20.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 20.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 20.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 20.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 20.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 20.
-LaTeX Font Info:    Redeclaring math accent \check on input line 20.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 20.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 20.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 20.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 20.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 20.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 20.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 20.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 20.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 20.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 20.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 20.
-LaTeX Info: Redefining \rmfamily on input line 20.
-LaTeX Info: Redefining \sffamily on input line 20.
-LaTeX Info: Redefining \ttfamily on input line 20.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Missing character: There is no પ (U+0AAA) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ખ (U+0A96) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no આ (U+0A86) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ધ (U+0AA7) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no આ (U+0A86) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ૦ (U+0AE6) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ૩ (U+0AE9) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ગ (U+0A97) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ુ (U+0AC1) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ણ (U+0AA3) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no બ (U+0AAC) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-bold]:mapping=tex-
-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ચ (U+0A9A) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no હ (U+0AB9) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no હ (U+0AB9) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ળ (U+0AB3) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ભ (U+0AAD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઝ (U+0A9D) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no હ (U+0AB9) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ખ (U+0A96) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ણ (U+0AA3) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઝ (U+0A9D) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઘ (U+0A98) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-[1
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-]
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ળ (U+0AB3) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ભ (U+0AAD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ફ (U+0AAB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઈ (U+0A88) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ચ (U+0A9A) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ભ (U+0AAD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ળ (U+0AB3) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ફ (U+0AAB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઈ (U+0A88) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ફ (U+0AAB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઈ (U+0A88) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ફ (U+0AAB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ઈ (U+0A88) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
-ex-text;!
-Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
-ex-text;!
-[2] (./sample.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
- ***********
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- ) 
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \prop_item:Ne 
+                         \__xpg_alias {\s__prop {\s__prop {\s__prop {\s__pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn #1#2->\prop_if_in:NeTF 
+                                               \__xpg_alias {#1/#2}{\prop_it...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn ... {#1/#2}{\prop_item:Ne 
+                                                  \__xpg_alias {#1/#2}}{\pro...
+l.2571 \setmainlanguage{latex}
+                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\xpg_alias_prop_item:nn .../#2}}{\prop_if_in:NeTF 
+                                                  \__xpg_alias {#1/target}{\...
+l.2571 \setmainlanguage{latex}
+                              
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 4804 strings out of 476772
- 135948 string characters out of 5803395
- 1929839 words of memory out of 5000000
- 26837 multiletter control sequences out of 15000+600000
- 558101 words of font info for 40 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 79i,5n,93p,524b,249s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 4200 strings out of 476387
+ 119183 string characters out of 5798474
+ 1844390 words of memory out of 5000000
+ 24778 multiletter control sequences out of 15000+600000
+ 513403 words of font info for 36 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 64i,0n,82p,261b,247s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on sample.pdf (2 pages).
+No pages of output.
