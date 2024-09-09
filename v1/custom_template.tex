@@ -1,0 +1,18 @@
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{gujarati}
+
+% Set fonts compatible with Claude's output
+\setmainfont{Noto Sans}
+\newfontfamily\gujaratifont{Noto Sans Gujarati}
+
+% Define a command to switch to Gujarati
+\newcommand{\guj}[1]{{\gujaratifont #1}}
+
+\begin{document}
+
+$body$
+
+\end{document}

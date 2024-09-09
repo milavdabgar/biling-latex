@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{xparse}
+
+\setmainlanguage{english}
+\setotherlanguage{gujarati}
+
+% Set fonts compatible with Claude's output
+\setmainfont{Noto Sans}
+\newfontfamily\gujaratifont{Noto Sans Gujarati}[
+    Script=Gujarati,
+    Language=Gujarati
+]
+
+% Define a command to automatically switch between English and Gujarati
+\ExplSyntaxOn
+\NewDocumentCommand{\autoswitch}{+m}
+ {
+  \tl_set:Nn \l_tmpa_tl { #1 }
+  \regex_replace_all:nnN
+   { ([ઁ-૱]+) }
+   { \c{customgujarati}\cB\{\1\cE\} }
+   \l_tmpa_tl
+  \tl_use:N \l_tmpa_tl
+ }
+\ExplSyntaxOff
+
+\newcommand{\customgujarati}[1]{{\gujaratifont #1}}
+
+\begin{document}
+
+\autoswitch{$body$}
+
+\end{document}

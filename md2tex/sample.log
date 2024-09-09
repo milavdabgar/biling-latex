@@ -1,0 +1,2072 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024/Arch Linux) (preloaded format=xelatex 2024.9.7)  8 SEP 2024 23:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sample.tex
+(./sample.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks17
+\labelindent=\skip50
+\enit@outerparindent=\dimen141
+\enit@toks=\toks18
+\enit@inbox=\box51
+\enit@count@id=\count192
+\enitdp@description=\count193
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-02-20 L3 programming layer (loader) 
+
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
+\g__graphics_track_int=\count194
+\l__pdf_internal_box=\box52
+\g__pdf_backend_object_int=\count195
+\g__pdf_backend_annotation_int=\count196
+\g__pdf_backend_link_int=\count197
+))
+Package: xparse 2024-02-18 L3 Experimental document command parser
+)
+Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count198
+\l__fontspec_language_int=\count199
+\l__fontspec_strnum_int=\count266
+\l__fontspec_tmp_int=\count267
+\l__fontspec_tmpa_int=\count268
+\l__fontspec_tmpb_int=\count269
+\l__fontspec_tmpc_int=\count270
+\l__fontspec_em_int=\count271
+\l__fontspec_emdef_int=\count272
+\l__fontspec_strong_int=\count273
+\l__fontspec_strongdef_int=\count274
+\l__fontspec_tmpa_dim=\dimen142
+\l__fontspec_tmpb_dim=\dimen143
+\l__fontspec_tmpc_dim=\dimen144
+
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2024/03/07 v2.1 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count275
+)
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count276
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/usr/share/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+)
+Package polyglossia Info: Default language is latex.
+)
+(/usr/share/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+Package polyglossia Info: Option: English, variant=american.
+)
+Package polyglossia Info: Default language is english.
+
+
+Package polyglossia Warning: File gloss-gujarati.ldf do not exists!
+(polyglossia)                I will nevertheless try to use hyphenation pattern
+s for gujarati. on input line 7.
+
+
+Package polyglossia Warning: No hyphenation patterns were loaded for `gujarati'
+
+(polyglossia)                I will use \language=\l@nohyphenation instead on i
+nput line 7.
+
+\l@gujarati = a dialect from \language\l@nohyphenation 
+
+! Package fontspec Error: The font "Noto Sans Gujarati-Regular" cannot be
+(fontspec)                found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.15 ]
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+Package fontspec Warning: Font "Noto Sans Gujarati-Regular" does not contain
+(fontspec)                requested Script "Gujarati".
+
+
+! Package fontspec Error: The font "Noto Sans Gujarati-Regular" cannot be
+(fontspec)                found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.15 ]
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Noto Sans Gujarati-Regular" cannot be
+(fontspec)                found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.15 ]
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Noto Sans Gujarati-Bold" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.15 ]
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+! Package fontspec Error: The font "Noto Sans Gujarati-Bold" cannot be found.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.15 ]
+      
+
+A font might not be found for many reasons.
+ Check the spelling, where the font is installed etc. etc.
+
+ When in doubt, ask someone for help!
+
+
+
+Package fontspec Info: Font family 'NotoSansGujarati(0)' created for font
+(fontspec)             'Noto Sans Gujarati' with options
+(fontspec)             [Script=Gujarati,Path=/usr/share/fonts/noto/,UprightFont
+=*-Regular,BoldFont=*-Bold,Extension=.ttf,Mapping=tex-text].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/noto/Noto Sans
+(fontspec)             Gujarati-Regular.ttf]/OT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/noto/Noto Sans
+(fontspec)             Gujarati-Regular.ttf]/OT"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/noto/Noto Sans
+(fontspec)             Gujarati-Bold.ttf]/OT"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/noto/Noto Sans
+(fontspec)             Gujarati-Bold.ttf]/OT"
+
+(./sample.aux)
+\openout1 = `sample.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+0.
+ (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 20.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 20.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 20.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 20.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 20.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 20.
+LaTeX Font Info:    Redeclaring math accent \check on input line 20.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 20.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 20.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 20.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 20.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 20.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 20.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 20.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 20.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 20.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 20.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 20.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 20.
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
+
+Missing character: There is no પ (U+0AAA) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ખ (U+0A96) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no આ (U+0A86) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ધ (U+0AA7) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no આ (U+0A86) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ૦ (U+0AE6) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ૩ (U+0AE9) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ગ (U+0A97) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ુ (U+0AC1) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ણ (U+0AA3) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no બ (U+0AAC) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-bold]:mapping=tex-
+text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ચ (U+0A9A) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no હ (U+0AB9) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no હ (U+0AB9) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ળ (U+0AB3) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ભ (U+0AAD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઝ (U+0A9D) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no હ (U+0AB9) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ખ (U+0A96) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ણ (U+0AA3) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઝ (U+0A9D) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઘ (U+0A98) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ય (U+0AAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+[1
+
+]
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ળ (U+0AB3) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ભ (U+0AAD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ફ (U+0AAB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઈ (U+0A88) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ચ (U+0A9A) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ભ (U+0AAD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ગ (U+0A97) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ળ (U+0AB3) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ફ (U+0AAB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ુ (U+0AC1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઈ (U+0A88) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no બ (U+0AAC) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઓ (U+0A93) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no જ (U+0A9C) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ફ (U+0AAB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઈ (U+0A88) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ફ (U+0AAB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ઈ (U+0A88) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ૂ (U+0AC2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no આ (U+0A86) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ં (U+0A82) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ષ (U+0AB7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ધ (U+0AA7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no વ (U+0AB5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ડ (U+0AA1) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ો (U+0ACB) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ી (U+0AC0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no શ (U+0AB6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ત (U+0AA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ક (U+0A95) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no દ (U+0AA6) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no પ (U+0AAA) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ર (U+0AB0) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no થ (U+0AA5) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no અ (U+0A85) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no છ (U+0A9B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no એ (U+0A8F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no લ (U+0AB2) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no િ (U+0ABF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no મ (U+0AAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ે (U+0AC7) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ટ (U+0A9F) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ્ (U+0ACD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no સ (U+0AB8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ન (U+0AA8) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ા (U+0ABE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+[2] (./sample.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4804 strings out of 476772
+ 135948 string characters out of 5803395
+ 1929839 words of memory out of 5000000
+ 26837 multiletter control sequences out of 15000+600000
+ 558101 words of font info for 40 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 79i,5n,93p,524b,249s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on sample.pdf (2 pages).
