@@ -22,7 +22,6 @@ pandoc "$input_file" \
     -V geometry:margin=1in \
     --highlight-style=tango \
     -f markdown+smart \
-    --lua-filter=bilingual-filter.lua \
-    --verbose
+    --lua-filter=bilingual-filter.lua
 
 echo "Conversion complete. Output file: $output_file"
