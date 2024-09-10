@@ -48,9 +48,9 @@ end
 
 function Code(elem)
     if contains_gujarati(elem.text) then
-        return pandoc.RawInline('latex', '\\texttt{\\gujaratifont ' .. elem.text .. '}')
+        return pandoc.RawInline('latex', '\\begin{gujaraticode}' .. elem.text .. '\\end{gujaraticode}')
     else
-        return pandoc.RawInline('latex', '\\texttt{' .. elem.text .. '}')
+        return pandoc.RawInline('latex', '\\InlineCode{' .. elem.text .. '}')
     end
 end
 
@@ -58,6 +58,6 @@ function CodeBlock(elem)
     if contains_gujarati(elem.text) then
         return pandoc.RawBlock('latex', '\\begin{gujaraticode}\n' .. elem.text .. '\n\\end{gujaraticode}')
     else
-        return pandoc.RawBlock('latex', '\\begin{lstlisting}[breaklines,basicstyle=\\ttfamily]\n' .. elem.text .. '\n\\end{lstlisting}')
+        return pandoc.RawBlock('latex', '\\begin{Verbatim}\n' .. elem.text .. '\n\\end{Verbatim}')
     end
 end

@@ -20,7 +20,6 @@ pandoc "$input_file" \
     -V mathfont="NotoSans Math" \
     -V geometry:margin=1in \
     --highlight-style=tango \
-    -f markdown+smart \
-    --verbose
+    -f markdown+smart
 
 echo "Conversion complete. Output file: $output_file"

@@ -6,7 +6,6 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{url}
-\usepackage{listings}
 \usepackage{fancyvrb}
 
 % Define tightlist command
@@ -41,22 +40,22 @@
 \newcommand{\gu}[1]{{\gujaratifont #1}}
 
 % Custom environment for code blocks with Gujarati support
-\newenvironment{gujaraticode}
- {\VerbatimEnvironment
-  \begin{Verbatim}[fontfamily=tt,formatcom=\let\textnormal\gujaratifont]}
- {\end{Verbatim}}
-
-% Listings configuration for non-Gujarati code
-\lstset{
-    basicstyle=\ttfamily\small,
-    breaklines=true,
-    columns=flexible,
-    keepspaces=true,
-    numbers=left,
-    numberstyle=\tiny\color{gray},
-    showstringspaces=false,
+\DefineVerbatimEnvironment{gujaraticode}{Verbatim}{
+    fontfamily=tt,
+    formatcom=\let\textnormal\gujaratifont,
     frame=single,
-    framesep=3pt
+    numbers=left,
+    fontsize=\small
+}
+
+% Define command for inline code
+\newcommand{\InlineCode}[1]{\texttt{#1}}
+
+% Configure Verbatim environment for code blocks
+\fvset{
+    frame=single,
+    numbers=left,
+    fontsize=\small
 }
 
 \begin{document}
