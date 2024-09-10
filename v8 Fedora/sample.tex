@@ -1,0 +1,266 @@
+\documentclass[]{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{fancyvrb}
+\usepackage{longtable,booktabs,array}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{xltxtra,xunicode}
+
+\setmainlanguage{english}
+\setotherlanguage{gujarati}
+
+% Set fonts
+\setmainfont{Noto Sans}
+\newfontfamily\gujaratifont{Noto Sans Gujarati}[Script=Gujarati]
+
+% Configure listings for code highlighting
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    columns=flexible,
+    keepspaces=true,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    showstringspaces=false,
+    frame=single,
+    framesep=3pt
+}
+
+% Define tightlist command
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+% Title, authors, and date
+
+\begin{document}
+
+
+
+\hypertarget{dsa-winter-2023}{%
+\subsection{1333203 DSA Winter 2023}\label{dsa-winter-2023}}
+
+\hypertarget{q1a-define-linked-list.-list-different-types-of-linked-list.-03-marks}{%
+\subsubsection{Q1a: Define linked list. List different types of linked
+list. (03
+marks)}\label{q1a-define-linked-list.-list-different-types-of-linked-list.-03-marks}}
+
+\textbf{Ans 1a:} A linked list is a dynamic data structure consisting of
+a sequence of elements, where each element (called a node) contains data
+and a reference (or link) to the next element in the sequence. Unlike
+arrays, linked lists do not store elements in contiguous memory
+locations, allowing for efficient insertion and deletion operations.
+
+Key characteristics of linked lists:
+
+\begin{itemize}
+\tightlist
+\item
+  Dynamic size: Can grow or shrink during program execution
+\item
+  Non-contiguous memory allocation: Elements can be stored anywhere in
+  memory
+\item
+  Efficient insertion and deletion: O(1) time complexity for operations
+  at the beginning or end
+\end{itemize}
+
+Different types of linked lists:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Singly Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Each node contains data and a single reference to the next node
+  \item
+    Last node points to NULL, indicating the end of the list
+  \end{itemize}
+\item
+  \textbf{Doubly Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Each node contains data and two references: one to the next node and
+    one to the previous node
+  \item
+    Allows traversal in both directions
+  \end{itemize}
+\item
+  \textbf{Circular Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Similar to singly linked list, but the last node points back to the
+    first node
+  \item
+    Forms a closed loop
+  \end{itemize}
+\item
+  \textbf{Circular Doubly Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Combines features of doubly linked and circular linked lists
+  \item
+    Last node\textgujarati{’}s next pointer points to the first node,
+    and first node\textgujarati{’}s previous pointer points to the last
+    node
+  \end{itemize}
+\item
+  \textbf{Header Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Contains a special header node at the beginning
+  \item
+    Header node may store metadata about the list (e.g., size, pointers
+    to first and last elements)
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{uxaaauxab0uxab6uxaa8-1uxa85-uxab2uxaa8uxa95uxaa1-uxab2uxab8uxa9fuxaa8-uxab5uxaafuxa96uxaaf-uxa86uxaaa.-uxab5uxab5uxaa7-uxaaauxab0uxa95uxab0uxaa8-uxab2uxaa8uxa95uxaa1-uxab2uxab8uxa9f-uxaa8-uxaafuxaa6-uxa86uxaaa.-uxae6uxae9-uxa97uxaa3}{%
+\subsubsection{\texorpdfstring{\textgujarati{પ્રશ્ન} 1\textgujarati{અ}:
+\textgujarati{લીન્કડ} \textgujarati{લીસ્ટની} \textgujarati{વ્યાખ્યા}
+\textgujarati{આપો}. \textgujarati{વિવિધ} \textgujarati{પ્રકારના}
+\textgujarati{લિન્ક્ડ} \textgujarati{લીસ્ટ} \textgujarati{ની}
+\textgujarati{યાદી} \textgujarati{આપો}. (\textgujarati{૦૩}
+\textgujarati{ગુણ})}{ 1:    .       . ( )}}\label{uxaaauxab0uxab6uxaa8-1uxa85-uxab2uxaa8uxa95uxaa1-uxab2uxab8uxa9fuxaa8-uxab5uxaafuxa96uxaaf-uxa86uxaaa.-uxab5uxab5uxaa7-uxaaauxab0uxa95uxab0uxaa8-uxab2uxaa8uxa95uxaa1-uxab2uxab8uxa9f-uxaa8-uxaafuxaa6-uxa86uxaaa.-uxae6uxae9-uxa97uxaa3}}
+
+\textbf{\textgujarati{જવાબ} 1\textgujarati{અ}:} linked list
+\textgujarati{એ} \textgujarati{એક} \textgujarati{ડાયનેમિક}
+\textgujarati{ડેટા} \textgujarati{સ્ટ્રક્ચર} \textgujarati{છે}
+\textgujarati{જેમાં} \textgujarati{એલિમેન્ટ્સનો} \textgujarati{ક્રમ}
+\textgujarati{હોય} \textgujarati{છે}, \textgujarati{જ્યાં}
+\textgujarati{દરેક} \textgujarati{એલિમેન્ટ} (\textgujarati{જેને} node
+\textgujarati{કહેવાય} \textgujarati{છે}) \textgujarati{ડેટા}
+\textgujarati{અને} \textgujarati{ક્રમમાં} \textgujarati{આગળના}
+\textgujarati{એલિમેન્ટનો} \textgujarati{સંદર્ભ} (\textgujarati{અથવા} link)
+\textgujarati{ધરાવે} \textgujarati{છે}. \textgujarati{એરેઝથી}
+\textgujarati{વિપરીત}, linked lists \textgujarati{એલિમેન્ટ્સને}
+\textgujarati{સતત} \textgujarati{મેમરી} \textgujarati{સ્થાનોમાં}
+\textgujarati{સંગ્રહિત} \textgujarati{કરતા} \textgujarati{નથી},
+\textgujarati{જે} insertion \textgujarati{અને} deletion
+\textgujarati{ઓપરેશન્સને} \textgujarati{કાર્યક્ષમ} \textgujarati{બનાવે}
+\textgujarati{છે}.
+
+linked lists \textgujarati{ની} \textgujarati{મુખ્ય}
+\textgujarati{લાક્ષણિકતાઓ}:
+
+\begin{itemize}
+\tightlist
+\item
+  \textgujarati{ડાયનેમિક} \textgujarati{કદ}: \textgujarati{પ્રોગ્રામ}
+  \textgujarati{એક્ઝીક્યુશન} \textgujarati{દરમિયાન} \textgujarati{વધી}
+  \textgujarati{અથવા} \textgujarati{ઘટી} \textgujarati{શકે}
+  \textgujarati{છે}
+\item
+  \textgujarati{નોન}-\textgujarati{કન્ટીગ્યુઅસ} \textgujarati{મેમરી}
+  \textgujarati{એલોકેશન}: \textgujarati{એલિમેન્ટ્સ} \textgujarati{મેમરીમાં}
+  \textgujarati{ગમે} \textgujarati{ત્યાં} \textgujarati{સ્ટોર}
+  \textgujarati{કરી} \textgujarati{શકાય} \textgujarati{છે}
+\item
+  \textgujarati{કાર્યક્ષમ} insertion \textgujarati{અને} deletion:
+  \textgujarati{શરૂઆત} \textgujarati{અથવા} \textgujarati{અંતમાં}
+  \textgujarati{ઓપરેશન્સ} \textgujarati{માટે} O(1) \textgujarati{સમય}
+  \textgujarati{જટિલતા}
+\end{itemize}
+
+\textgujarati{વિવિધ} \textgujarati{પ્રકારના} linked lists:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Singly Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textgujarati{દરેક} node \textgujarati{ડેટા} \textgujarati{અને}
+    \textgujarati{આગળના} node \textgujarati{નો} \textgujarati{એક}
+    \textgujarati{સિંગલ} \textgujarati{સંદર્ભ} \textgujarati{ધરાવે}
+    \textgujarati{છે}
+  \item
+    \textgujarati{છેલ્લું} node NULL \textgujarati{તરફ} \textgujarati{પોઈન્ટ}
+    \textgujarati{કરે} \textgujarati{છે}, \textgujarati{જે}
+    \textgujarati{લિસ્ટના} \textgujarati{અંતને} \textgujarati{સૂચવે}
+    \textgujarati{છે}
+  \end{itemize}
+\item
+  \textbf{Doubly Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textgujarati{દરેક} node \textgujarati{ડેટા} \textgujarati{અને}
+    \textgujarati{બે} \textgujarati{સંદર્ભો} \textgujarati{ધરાવે}
+    \textgujarati{છે}: \textgujarati{એક} \textgujarati{આગળના} node
+    \textgujarati{માટે} \textgujarati{અને} \textgujarati{એક}
+    \textgujarati{પાછલા} node \textgujarati{માટે}
+  \item
+    \textgujarati{બંને} \textgujarati{દિશાઓમાં} \textgujarati{ટ્રાવર્સલની}
+    \textgujarati{મંજૂરી} \textgujarati{આપે} \textgujarati{છે}
+  \end{itemize}
+\item
+  \textbf{Circular Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Singly Linked List \textgujarati{જેવું} \textgujarati{જ},
+    \textgujarati{પરંતુ} \textgujarati{છેલ્લું} node \textgujarati{પ્રથમ} node
+    \textgujarati{તરફ} \textgujarati{પાછું} \textgujarati{પોઈન્ટ}
+    \textgujarati{કરે} \textgujarati{છે}
+  \item
+    \textgujarati{બંધ} \textgujarati{લૂપ} \textgujarati{બનાવે}
+    \textgujarati{છે}
+  \end{itemize}
+\item
+  \textbf{Circular Doubly Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Doubly Linked \textgujarati{અને} Circular Linked Lists
+    \textgujarati{ની} \textgujarati{વિશેષતાઓને} \textgujarati{જોડે}
+    \textgujarati{છે}
+  \item
+    \textgujarati{છેલ્લા} node \textgujarati{નો} next pointer
+    \textgujarati{પ્રથમ} node \textgujarati{તરફ} \textgujarati{પોઈન્ટ}
+    \textgujarati{કરે} \textgujarati{છે}, \textgujarati{અને}
+    \textgujarati{પ્રથમ} node \textgujarati{નો} previous pointer
+    \textgujarati{છેલ્લા} node \textgujarati{તરફ} \textgujarati{પોઈન્ટ}
+    \textgujarati{કરે} \textgujarati{છે}
+  \end{itemize}
+\item
+  \textbf{Header Linked List}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textgujarati{શરૂઆતમાં} \textgujarati{એક} \textgujarati{વિશેષ} header
+    node \textgujarati{ધરાવે} \textgujarati{છે}
+  \item
+    Header node \textgujarati{લિસ્ટ} \textgujarati{વિશેના}
+    \textgujarati{મેટાડેટા} \textgujarati{સ્ટોર} \textgujarati{કરી}
+    \textgujarati{શકે} \textgujarati{છે}
+    (\textgujarati{દા}.\textgujarati{ત}., \textgujarati{કદ},
+    \textgujarati{પ્રથમ} \textgujarati{અને} \textgujarati{છેલ્લા}
+    \textgujarati{એલિમેન્ટ્સના} pointers)
+  \end{itemize}
+\end{enumerate}
+
+\end{document}
