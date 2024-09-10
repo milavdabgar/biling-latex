@@ -1,0 +1,199 @@
+\documentclass[12pt,a4paper]{article}
+
+% Load fontspec first
+\usepackage{fontspec}
+
+% Load other necessary packages
+\usepackage{polyglossia}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+
+% Load listings after hyperref to avoid conflicts
+\usepackage{listings}
+
+% Use \providecommand instead of \newcommand for potentially pre-defined commands
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Set the main language
+\setmainlanguage{english}
+
+% Set other languages
+\setotherlanguage{gujarati}
+% Add other languages as needed, e.g.:
+% \setotherlanguage{hindi}
+% \setotherlanguage{japanese}
+
+% Set default font to a Unicode font that covers a wide range of characters
+\setmainfont{NotoSans}[
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic,
+    BoldItalicFont = *-BoldItalic
+]
+
+% Set monospace font for code
+\setmonofont{NotoSansMono}[
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+
+% Set up fallback fonts for various scripts
+\newfontfamily\gujaratifont{NotoSansGujarati}[
+    Script=Gujarati,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+\newfontfamily\devanagarifont{NotoSansDevanagari}[
+    Script=Devanagari,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+\newfontfamily\bengalifont{NotoSansBengali}[
+    Script=Bengali,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+\newfontfamily\tamilfont{NotoSansTamil}[
+    Script=Tamil,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+\newfontfamily\telagufont{NotoSansTelugu}[
+    Script=Telugu,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+\newfontfamily\hanfont{Noto Sans CJK SC}[
+    Script=CJK,
+    Path = /usr/share/fonts/opentype/noto/,
+    Extension = .ttc,
+    UprightFont = NotoSansCJK-Regular
+]
+\newfontfamily\japanesefont{Noto Sans CJK JP}[
+    Script=CJK,
+    Path = /usr/share/fonts/opentype/noto/,
+    Extension = .ttc,
+    UprightFont = NotoSansCJK-Regular
+]
+\newfontfamily\koreanfont{Noto Sans CJK KR}[
+    Script=CJK,
+    Path = /usr/share/fonts/opentype/noto/,
+    Extension = .ttc,
+    UprightFont = NotoSansCJK-Regular
+]
+\newfontfamily\arabicfont{NotoSansArabic}[
+    Script=Arabic,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+\newfontfamily\hebrewfont{NotoSansHebrew}[
+    Script=Hebrew,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+\newfontfamily\thaifont{NotoSansThai}[
+    Script=Thai,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+\newfontfamily\cyrillicfont{NotoSans}[
+    Script=Cyrillic,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+\newfontfamily\greekfont{NotoSans}[
+    Script=Greek,
+    Path = /usr/share/fonts/truetype/noto/,
+    Extension = .ttf,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold
+]
+
+% Listings configuration
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    columns=flexible,
+    keepspaces=true,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    showstringspaces=false,
+    frame=single,
+    framesep=3pt,
+    literate={
+        {©}{{{\textcopyright}}}1 {®}{{{\textregistered}}}1 
+        {™}{{{\texttrademark}}}1 {…}{{{\ldots}}}1 {█}{{{\blacksquare}}}1
+        {♥}{{{\heart}}}1 {♠}{{{\spadesuit}}}1 {♣}{{{\clubsuit}}}1 {♢}{{{\diamondsuit}}}1
+        {☺}{{{\smiley}}}1 {…}{{{\dots}}}1
+        {€}{{{\euro}}}1 {£}{{{\pounds}}}1 {¥}{{{\yen}}}1
+        {°}{{{\textdegree}}}1 {≤}{{{\leq}}}1 {≥}{{{\geq}}}1
+    }
+}
+
+% Title, authors, and date
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+
+\begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+
+$for(include-before)$
+$include-before$
+
+$endfor$
+$if(toc)$
+$if(toc-title)$
+\renewcommand*\contentsname{$toc-title$}
+$endif$
+\tableofcontents
+$endif$
+$if(lot)$
+\listoftables
+$endif$
+$if(lof)$
+\listoffigures
+$endif$
+
+$body$
+
+$for(include-after)$
+$include-after$
+
+$endfor$
+
+\end{document}
