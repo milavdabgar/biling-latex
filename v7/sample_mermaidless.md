@@ -7,7 +7,6 @@
 A linked list is a dynamic data structure consisting of a sequence of elements, where each element (called a node) contains data and a reference (or link) to the next element in the sequence. Unlike arrays, linked lists do not store elements in contiguous memory locations, allowing for efficient insertion and deletion operations.
 
 Key characteristics of linked lists:
-
 - Dynamic size: Can grow or shrink during program execution
 - Non-contiguous memory allocation: Elements can be stored anywhere in memory
 - Efficient insertion and deletion: O(1) time complexity for operations at the beginning or end
@@ -41,7 +40,6 @@ Different types of linked lists:
 linked list એ એક ડાયનેમિક ડેટા સ્ટ્રક્ચર છે જેમાં એલિમેન્ટ્સનો ક્રમ હોય છે, જ્યાં દરેક એલિમેન્ટ (જેને node કહેવાય છે) ડેટા અને ક્રમમાં આગળના એલિમેન્ટનો સંદર્ભ (અથવા link) ધરાવે છે. એરેઝથી વિપરીત, linked lists એલિમેન્ટ્સને સતત મેમરી સ્થાનોમાં સંગ્રહિત કરતા નથી, જે insertion અને deletion ઓપરેશન્સને કાર્યક્ષમ બનાવે છે.
 
 linked lists ની મુખ્ય લાક્ષણિકતાઓ:
-
 - ડાયનેમિક કદ: પ્રોગ્રામ એક્ઝીક્યુશન દરમિયાન વધી અથવા ઘટી શકે છે
 - નોન-કન્ટીગ્યુઅસ મેમરી એલોકેશન: એલિમેન્ટ્સ મેમરીમાં ગમે ત્યાં સ્ટોર કરી શકાય છે
 - કાર્યક્ષમ insertion અને deletion: શરૂઆત અથવા અંતમાં ઓપરેશન્સ માટે O(1) સમય જટિલતા
@@ -67,3 +65,54 @@ linked lists ની મુખ્ય લાક્ષણિકતાઓ:
 5. **Header Linked List**:
    - શરૂઆતમાં એક વિશેષ header node ધરાવે છે
    - Header node લિસ્ટ વિશેના મેટાડેટા સ્ટોર કરી શકે છે (દા.ત., કદ, પ્રથમ અને છેલ્લા એલિમેન્ટ્સના pointers)
+
+
+
+### Q1b: Explain Linear and Non Linear Data structure in Python with examples. (04 marks)
+
+**Ans 1b:**
+Data structures in Python can be categorized into two main types: Linear and Non-Linear. These categories differ in how they organize and allow access to data elements.
+
+**1. Linear Data Structures:**
+Linear data structures are those in which data elements are arranged sequentially or linearly. Each element is directly connected to its previous and next elements (if they exist).
+
+Characteristics:
+- Elements are arranged in a sequential order
+- Each element has at most one predecessor and one successor
+- Data can be traversed in a single run
+
+Examples in Python:
+
+a) Lists:
+```python
+fruits = ['apple', 'banana', 'cherry']
+print(fruits[1])  # Output: banana
+```
+
+b) Tuples:
+```python
+coordinates = (10, 20)
+print(coordinates[0])  # Output: 10
+```
+
+c) Strings:
+```python
+message = "Hello"
+print(message[2])  # Output: l
+```
+
+d) Stack (implemented using a list):
+```python
+stack = []
+stack.append('a')
+stack.append('b')
+print(stack.pop())  # Output: b
+```
+
+e) Queue (using collections.deque):
+```python
+from collections import deque
+queue = deque(['x', 'y', 'z'])
+queue.append('w')
+print(queue.popleft())  # Output: x
+```
