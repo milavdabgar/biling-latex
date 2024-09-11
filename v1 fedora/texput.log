@@ -1,0 +1,20 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Fedora 40) (preloaded format=xetex 2024.9.10)  10 SEP 2024 21:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\font\test=Noto Sans Gujarati at 10pt \end
+! Font \test=Noto not loadable: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   S
+<to be read again> 
+                   a
+<*> \font\test=Noto Sa
+                      ns Gujarati at 10pt \end
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+[2]
+Output written on texput.xdv (1 page, 256 bytes).
