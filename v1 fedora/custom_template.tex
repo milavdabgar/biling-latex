@@ -1,0 +1,88 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{fancyvrb}
+\usepackage{longtable,booktabs,array}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{xltxtra,xunicode}
+
+\setmainlanguage{english}
+\setotherlanguage{gujarati}
+
+% Set fonts
+\setmainfont{Noto Sans}
+\newfontfamily\gujaratifont{Noto Sans Gujarati}[Script=Gujarati]
+\newfontfamily\monofont{Noto Sans Mono}
+
+% Define a new command for mixed-script inline code
+\newcommand{\mixedcode}[1]{{\ttfamily\bfseries\small#1}}
+
+% Configure listings for code highlighting
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    columns=flexible,
+    keepspaces=true,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    showstringspaces=false,
+    frame=single,
+    framesep=3pt,
+    escapeinside={(*@}{@*)},  % Define escape characters
+    escapebegin=\begin{minipage}{\linewidth}\mixedcode,
+    escapeend=\end{minipage}
+}
+
+% Define tightlist command
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+% Title, authors, and date
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+
+\begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+
+$for(include-before)$
+$include-before$
+
+$endfor$
+$if(toc)$
+$if(toc-title)$
+\renewcommand*\contentsname{$toc-title$}
+$endif$
+\tableofcontents
+$endif$
+$if(lot)$
+\listoftables
+$endif$
+$if(lof)$
+\listoffigures
+$endif$
+
+$body$
+
+$for(include-after)$
+$include-after$
+
+$endfor$
+\end{document}
