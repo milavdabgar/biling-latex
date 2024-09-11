@@ -1,0 +1,32 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+\setmainlanguage{english}
+\setotherlanguage{gujarati}
+
+% Option 1: Use the full path to the font file
+% \setmainfont{Noto Sans Gujarati}[
+%     Extension = .ttf,
+%     Path = /usr/share/fonts/noto/,
+%     UprightFont = *-Regular,
+%     BoldFont = *-Bold,
+%     ItalicFont = *-Italic,
+%     BoldItalicFont = *-BoldItalic
+% ]
+
+% Option 2: Use the exact font name as shown in fc-list
+\setmainfont{Noto Sans Gujarati}
+\setmainfont{NotoSansGujarati-Regular.ttf}[Path=Noto_Sans_Gujarati/static/]
+
+% Option 3: Use system fonts as fallback
+%\setmainfont{Arial}
+%\newfontfamily\gujaratifont{Arial Unicode MS}[Script=Gujarati]
+
+\begin{document}
+
+This is English text. આ ગુજરાતી લખાણ છે.
+
+\textbf{Bold text} \textit{Italic text}
+
+\end{document}

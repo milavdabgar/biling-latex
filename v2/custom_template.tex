@@ -1,0 +1,50 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{xcolor}
+\usepackage{fancyvrb}
+\usepackage{longtable,booktabs,array}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\setmainlanguage{english}
+\setotherlanguage{gujarati}
+
+% Set font for both English and Gujarati
+\setmainfont{NotoSansGujarati-Regular.ttf}[
+    Path = Noto_Sans_Gujarati/static/,
+    BoldFont = NotoSansGujarati-Bold.ttf,
+    ItalicFont = NotoSansGujarati-Regular.ttf,
+    BoldItalicFont = NotoSansGujarati-Bold.ttf
+]
+
+\setmonofont{NotoSansGujarati-Regular.ttf}[
+    Path = Noto_Sans_Gujarati/static/,
+    BoldFont = NotoSansGujarati-Bold.ttf,
+    ItalicFont = NotoSansGujarati-Regular.ttf,
+    BoldItalicFont = NotoSansGujarati-Bold.ttf
+]
+
+% Define tightlist command
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Configure listings for code highlighting
+\usepackage{listings}
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    columns=flexible,
+    keepspaces=true,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    showstringspaces=false,
+    frame=single,
+    framesep=3pt
+}
+
+\begin{document}
+
+$body$
+
+\end{document}
